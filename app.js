@@ -9,14 +9,14 @@ document.addEventListener('DOMContentLoaded',function(){
 
         if (flag===0) {
             navlist.classList.add('show')
-           menuIcon.src="assts/close.png"
+           menuIcon.src="images/close.png"
             flag=1;
             
         }
 
         else{
             navlist.classList.remove('show')
-            menuIcon.src="assts/menu.png"
+            menuIcon.src="images/menu.png"
            
             flag=0;
         }
